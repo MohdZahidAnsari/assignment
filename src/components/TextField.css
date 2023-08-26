@@ -1,0 +1,38 @@
+.florida-jacket,
+.suffered-alteration-in {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.florida-jacket {
+  font-weight: 600;
+  width: 258px;
+  height: 30px;
+}
+.suffered-alteration-in {
+  font-size: var(--body-text-14-size);
+  font-family: var(--body-text-14);
+  color: var(--greyscale-400);
+  width: 303px;
+  height: 49px;
+}
+.florida-jacket-parent,
+.text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.florida-jacket-parent {
+  width: 310px;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.text-field {
+  position: relative;
+  text-align: left;
+  font-size: var(--subtitles-size);
+  color: var(--grey-scale-1000);
+  font-family: var(--subtitles);
+}
